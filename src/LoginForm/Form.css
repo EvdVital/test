@@ -1,0 +1,81 @@
+.loginForm {    
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+        
+}
+
+.loginFormDenied {
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+
+}
+
+.loginFormOnClick {    
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+}
+
+.loginFormDenied #InputLogin  {
+    outline: 2px  solid red;
+}
+
+.form-control {
+    margin: 20px;
+}
+
+span {
+    font-size: 30px;
+    text-align: center;
+}
+
+.success{
+    display: none;
+}
+
+.loginFormSuccess {
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+
+}
+
+.loginFormSuccess .container {
+    display: none;
+}
+
+.loginFormSuccess .success  {
+  display:flex;
+  z-index: 999;
+
+}
+
+.loginFormSuccess .image {
+    display: flex;
+    float: left;
+    position: relative;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.loginFormSuccess .succesLogged {
+    position: relative;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
+.loginFormOnClick .button > button {
+    background: url("https://cdn.icon-icons.com/icons2/933/PNG/512/settings-cogwheel-button_icon-icons.com_72559.png");
+    /*background: url('https://st3.depositphotos.com/2384459/15112/v/1600/depositphotos_151124258-stock-illustration-blue-white-information-sign-cogwheel.jpg');*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
